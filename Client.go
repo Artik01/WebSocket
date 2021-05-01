@@ -51,6 +51,5 @@ func Getter(c *websocket.Conn) {
 			return
 		}
 		log.Printf("%s", message)
-		time.Sleep(500*time.Millisecond)
 	}
 }
